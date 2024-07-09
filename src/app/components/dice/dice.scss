@@ -1,0 +1,29 @@
+.dice-container {
+  text-align: center;
+  margin: 20px 0;
+
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .dice-results {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+    .die {
+      width: 40px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 5px;
+      border: 1px solid #000;
+      background-color: #f0f0f0;
+      font-size: 18px;
+      font-weight: bold;
+    }
+  }
+}
